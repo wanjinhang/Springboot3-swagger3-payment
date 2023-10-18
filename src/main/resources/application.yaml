@@ -3,3 +3,17 @@ server:
 spring:
   application:
     name: swagger
+
+  jackson:
+    date-format: java.text.SimpleDateFormat
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///payment_demo
+    username: root
+    password: root
+mybatis-plus:
+  mapper-locations: "classpath*:/mapper/**/*.xml"
+  global-config:
+    db-config:
+      table-prefix: t_
