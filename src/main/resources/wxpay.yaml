@@ -1,0 +1,8 @@
+wxpay:
+    appId: wx1234567890
+    mchId: 1234567890
+    mchKey: 1234567890
+    notifyUrl: http://localhost:8090/wxpay/notify
+    keyPath: classpath:wxpay/wxpay.key
+    certPath: classpath:wxpay/wxpay.cert
+    pfxPath: classpath:wxpay/wxpay.pfx

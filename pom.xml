@@ -11,7 +11,7 @@
     <artifactId>Springboot3-swagger3-payment</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Swagger2demo</name>
-    <description>Swagger2demo</description>
+    <description>Swagger3demo</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -47,17 +47,24 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-<!--        mysql数据库-->
+        <!--        mysql数据库-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.30</version>
         </dependency>
-<!--        mybatis plus-->
+        <!--        mybatis plus-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.5.3</version>
+        </dependency>
+
+        <!--        支付宝SDK-->
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>4.38.111.ALL</version>
         </dependency>
 
     </dependencies>
